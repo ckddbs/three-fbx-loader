@@ -1,0 +1,25 @@
+{
+  "name": "three-fbx-loader",
+  "version": "1.0.0",
+  "description": "@ckddbs's three.js fbx-loader as a node module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckddbs/three-fbx-loader.git"
+  },
+  "keywords": [
+    "three",
+    "threejs",
+    "fbx",
+    "loader"
+  ],
+  "author": "Changyoon Yang <ckddbs@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckddbs/three-fbx-loader/issues"
+  },
+  "homepage": "https://github.com/ckddbs/three-fbx-loader#readme"
+}
