@@ -1,6 +1,6 @@
 {
   "name": "three-fbx-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "@ckddbs's three.js fbx-loader as a node module",
   "main": "index.js",
   "scripts": {
