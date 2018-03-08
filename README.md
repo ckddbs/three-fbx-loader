@@ -10,15 +10,15 @@ Kyle-Larson and Takahiro's [THREE.FBXLoader](https://threejs.org/examples/js/loa
 
 ```js
 
-var THREE = require('three')
-require('three-fbx-loader')(THREE)
+var THREE = require('three');
+var FBXLoader = require('three-fbx-loader');
 
-var loader = new THREE.FBXLoader()
+var loader = new FBXLoader();
 
-loader.load('./path/to/model.fbx', function (geometry) {
-  var material = new THREE.MeshNormalMaterial()
-  var mesh = new THREE.Mesh(geometry, material)
-  scene.add(mesh)
-})
+var scene = new THREE.Scene();
+
+loader.load('./path/to/model.fbx', function (object3d) {
+  scene.add(object3d);
+});
 
 ```
