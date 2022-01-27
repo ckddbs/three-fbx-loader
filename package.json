@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/ckddbs/three-fbx-loader#readme",
   "dependencies": {
-    "three": "^0.111.0"
+    "three": "^0.137.0"
   },
   "devDependencies": {}
 }
